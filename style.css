@@ -1,86 +1,81 @@
 /*REGOLE GENERALI*/
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  color: #4A5F6F
+  font-family: "Montserrat", sans-serif;
+  color: #33475B;
 }
 
-.clearfix{
-  content: '';
+.clearfix {
+  content: "";
   display: table;
   clear: both;
 }
 
-.float-left{
+.float-left {
   float: left;
 }
 
-.margin-left{
+.margin-left {
   margin-left: 2%;
 }
 
-.margin-right{
+.margin-right {
   margin-right: 2%;
 }
 
-.padding-left{
+.padding-left {
   padding-left: 2%;
 }
 
-.text-aling-r{
+.text-aling-r {
   text-align: right;
 }
 
-.text-aling-l{
-  text-align: left;
-}
-.w100-p0-10{
+.w100-p0-10 {
   width: 100%;
   padding: 0 10%;
 }
 
-.w100-lin-h100{
+.w100-lin-h100 {
   width: 100%;
   line-height: 100px;
 }
 
-.w50{
+.w50 {
   width: 50%;
 }
 
-a{
+a {
   text-decoration: none;
 }
-
 
 /* /REGOLE GENERALI */
 
 /* REGOLE SESSIONE FIXATA */
-.nav-fix{
+.nav-fix {
   position: fixed;
   top: 0;
-  background-color: #F4F9FD;
-  border-bottom: 2px solid #4A5F6F;
+  background-color: #f4f9fd;
+  border-bottom: 2px solid #4a5f6f;
   margin-bottom: 200px;
+  min-width: 1000px;
 }
 
-
-#english>.fa-angle-down{
+.linea-bordo{
   padding-right: 20px;
   border-right: 1px solid black;
 }
 
-
-.fa-search{
-  color: #14A9C0;
+.fa-search {
+  color: #14a9c0;
 }
 
-
-#log-in{
+/* BOTTONI */
+#log-in {
   color: #fe775a;
-  background-color: #F5FAFD;
+  background-color: #f5fafd;
 }
 
 .btn {
@@ -92,32 +87,53 @@ a{
   border: 1px solid #fe775a;
 }
 
-.orange{
-  color: #F5FAFD;
+.orange {
+  color: #f5fafd;
   background-color: #fe775a;
-  }
+}
 
-  /* /REGOLE SESSIONE FIXATA */
+.large{
+  padding: 25px 35px;
+}
+/* /BOTTONI */
 
+.container-logo-barra {
+  margin-top: 100px;
+}
+/* /REGOLE SESSIONE FIXATA */
 
-/* .nav-contain{
-  width: 100%;
+.header{
+  height: 810px;
+  border-bottom: 4px solid #4a5f6f;
+}
+
+.back-contain{
   height: 100%;
   padding: 0 10%; 
   min-width: 1200px;
   background-image: url(img/jumbotron.png);
-  background-size: 1000px;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 115% 100%;
-} */
-
-/* LOGO PIU BARRA RICERCA */
-.container-logo-barra{
-  margin-top: 100px;
 }
 
-.logo img{
-  height: 100%;
-  line-height: 50%;
-  max-width: max-content;
+.riga-verde{
+  width: 100%;
+  height: 50px;
+  background-color: #AFEBE4;
+  border-bottom: 4px solid #4a5f6f;
+}
+
+.back-contain .w50.h500 h1{
+  padding-top: 80px;
+  font-size: 56px;
+}
+
+.back-contain .w50.h500 p{
+  padding: 50px 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.back-contain .w50.h500 .small{
+  font-size: 14px;
 }
